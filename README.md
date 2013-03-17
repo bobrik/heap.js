@@ -22,7 +22,19 @@ heap.push(456);
 heap.push(-1);
 ```
 
+Find out length:
+
+```javascript
+console.loog(heap.length);
+```
+
 Take smallest one:
+
+```javascript
+console.log(heap.top());
+```
+
+Remove it:
 
 ```javascript
 console.log(heap.pop());
